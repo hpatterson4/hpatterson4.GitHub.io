@@ -21131,7 +21131,7 @@ pd.DataFrame(feature_import,
 
 
 
-![png](testcarprediction_files/testcarprediction_172_1.png)
+![png](/images/testcarprediction_files/testcarprediction_172_1.png)
 
 
 
@@ -21667,7 +21667,7 @@ sns.lmplot(x='MSRP', y='Pred', data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_184_1.png)
+![png](/images/testcarprediction_files/testcarprediction_184_1.png)
 
 
 
