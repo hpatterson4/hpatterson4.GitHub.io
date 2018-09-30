@@ -1,3 +1,4 @@
+<br>
 
 <img src="http://imgur.com/1ZcRyrc.png" style="float: left; margin: 20px; height: 55px">
 
@@ -1523,7 +1524,7 @@ sns.heatmap(sc.corr(), annot=True, center =0)
 
 
 
-![png](linear-regression-sacramento_files/linear-regression-sacramento_26_1.png)
+![png](/images/linear-regression-sacramento_files/linear-regression-sacramento_26_1.png)
 
 
 
@@ -1667,7 +1668,7 @@ for _, row in sc.iterrows():
 ```
 
 
-![png](linear-regression-sacramento_files/linear-regression-sacramento_46_0.png)
+![png](/images/linear-regression-sacramento_files/linear-regression-sacramento_46_0.png)
 
 
 ---
@@ -2246,7 +2247,7 @@ sns.lmplot(x='price', y='y_pred', data=sc, hue='Huge_homes')
 
 
 
-![png](linear-regression-sacramento_files/linear-regression-sacramento_63_1.png)
+![png](/images/linear-regression-sacramento_files/linear-regression-sacramento_63_1.png)
 
 
 ### 13. List the five assumptions for an MLR model. 
@@ -2288,7 +2289,7 @@ sns.distplot(sc['Residuals'])
 
 
 
-![png](linear-regression-sacramento_files/linear-regression-sacramento_68_1.png)
+![png](/images/linear-regression-sacramento_files/linear-regression-sacramento_68_1.png)
 
 
 
@@ -2312,7 +2313,7 @@ plt.show()
 ```
 
 
-![png](linear-regression-sacramento_files/linear-regression-sacramento_70_0.png)
+![png](/images/linear-regression-sacramento_files/linear-regression-sacramento_70_0.png)
 
 
 ### 15. [Bonus] Generate a table showing the point estimates, standard errors, t-scores, p-values, and 95% confidence intervals for the model you built. 
