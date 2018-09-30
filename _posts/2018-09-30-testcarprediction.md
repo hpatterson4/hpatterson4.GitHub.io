@@ -482,7 +482,7 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_15_0.png)
+![png](/images/testcarprediction_files/testcarprediction_15_0.png)
 
 
 
@@ -588,7 +588,7 @@ nullvalues.plot.barh()
 
 
 
-![png](testcarprediction_files/testcarprediction_17_1.png)
+![png](/images/testcarprediction_files/testcarprediction_17_1.png)
 
 
 
@@ -761,7 +761,7 @@ sns.countplot(y='Vehicle Style', data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_20_1.png)
+![png](/images/testcarprediction_files/testcarprediction_20_1.png)
 
 
 
@@ -780,35 +780,35 @@ for feature in df.dtypes[df.dtypes == 'object'].index:
 ```
 
 
-![png](testcarprediction_files/testcarprediction_21_0.png)
+![png](/images/testcarprediction_files/testcarprediction_21_0.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_1.png)
+![png](/images/testcarprediction_files/testcarprediction_21_1.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_2.png)
+![png](t/images/estcarprediction_files/testcarprediction_21_2.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_3.png)
+![png](/images/testcarprediction_files/testcarprediction_21_3.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_4.png)
+![png](/images/testcarprediction_files/testcarprediction_21_4.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_5.png)
+![png](/images/testcarprediction_files/testcarprediction_21_5.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_6.png)
+![png](/images/testcarprediction_files/testcarprediction_21_6.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_21_7.png)
+![png](/images/testcarprediction_files/testcarprediction_21_7.png)
 
 
 
@@ -826,7 +826,7 @@ sns.boxplot(y='Engine Fuel Type', x='MSRP', data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_22_1.png)
+![png](/images/testcarprediction_files/testcarprediction_22_1.png)
 
 
 
@@ -16186,7 +16186,7 @@ sns.heatmap(df.corr(), annot = True)
 
 
 
-![png](testcarprediction_files/testcarprediction_132_1.png)
+![png](/images/testcarprediction_files/testcarprediction_132_1.png)
 
 
 
@@ -16205,7 +16205,7 @@ plt.ylabel('Engine Cylinders')
 
 
 
-![png](testcarprediction_files/testcarprediction_133_1.png)
+![png](/images/testcarprediction_files/testcarprediction_133_1.png)
 
 
 
@@ -16224,7 +16224,7 @@ plt.ylabel('Count')
 
 
 
-![png](testcarprediction_files/testcarprediction_134_1.png)
+![png](/images/testcarprediction_files/testcarprediction_134_1.png)
 
 
 
@@ -16241,7 +16241,7 @@ sns.jointplot(x='Popularity',y='MSRP',data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_135_1.png)
+![png](/images/testcarprediction_files/testcarprediction_135_1.png)
 
 
 
@@ -16258,15 +16258,15 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_136_0.png)
+![png](/images/testcarprediction_files/testcarprediction_136_0.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_136_1.png)
+![png](/images/testcarprediction_files/testcarprediction_136_1.png)
 
 
 
-![png](testcarprediction_files/testcarprediction_136_2.png)
+![png](/images/testcarprediction_files/testcarprediction_136_2.png)
 
 
 
@@ -16283,7 +16283,7 @@ sns.jointplot(x='Engine Cylinders',y='MSRP',data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_137_1.png)
+![png](/images/testcarprediction_files/testcarprediction_137_1.png)
 
 
 
@@ -16300,7 +16300,7 @@ sns.jointplot(x='Engine HP',y='MSRP',data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_138_1.png)
+![png](/images/testcarprediction_files/testcarprediction_138_1.png)
 
 
 
@@ -16318,7 +16318,7 @@ plt.xlabel('Engine HP')
 
 
 
-![png](testcarprediction_files/testcarprediction_139_1.png)
+![png](/images/testcarprediction_files/testcarprediction_139_1.png)
 
 
 
@@ -16336,7 +16336,7 @@ plt.xlabel('Engine HP')
 
 
 
-![png](testcarprediction_files/testcarprediction_140_1.png)
+![png](/images/testcarprediction_files/testcarprediction_140_1.png)
 
 
 <a id='ab-hp^2'></a>
@@ -16510,7 +16510,7 @@ sns.jointplot(x='Engine HP^2',y='MSRP',data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_144_1.png)
+![png](/images/testcarprediction_files/testcarprediction_144_1.png)
 
 
 
@@ -16528,7 +16528,7 @@ plt.xlabel('Engine HP^2')
 
 
 
-![png](testcarprediction_files/testcarprediction_145_1.png)
+![png](/images/testcarprediction_files/testcarprediction_145_1.png)
 
 
 
@@ -16538,7 +16538,7 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_146_0.png)
+![png](/images/testcarprediction_files/testcarprediction_146_0.png)
 
 
 <a id='ab-outliers'></a>
@@ -19441,7 +19441,7 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_164_0.png)
+![png](/images/testcarprediction_files/testcarprediction_164_0.png)
 
 
 <a id='ab-gb'></a>
@@ -21383,7 +21383,7 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_174_0.png)
+![png](/images/testcarprediction_files/testcarprediction_174_0.png)
 
 
 <a id='ab-kn'></a>
@@ -21594,7 +21594,7 @@ plt.show()
 ```
 
 
-![png](testcarprediction_files/testcarprediction_177_0.png)
+![png](/images/testcarprediction_files/testcarprediction_177_0.png)
 
 
 <a id='ab-visualizepred'></a>
@@ -21707,7 +21707,7 @@ sns.lmplot(x='MSRP', y='Pred', data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_187_1.png)
+![png](/images/testcarprediction_files/testcarprediction_187_1.png)
 
 
 
@@ -21726,7 +21726,7 @@ sns.distplot(df['Residuals'])
 
 
 
-![png](testcarprediction_files/testcarprediction_188_1.png)
+![png](/images/testcarprediction_files/testcarprediction_188_1.png)
 
 
 <a id='ab-bestmodel'></a>
@@ -22615,7 +22615,7 @@ pd.DataFrame(feature_import,
 
 
 
-![png](testcarprediction_files/testcarprediction_195_1.png)
+![png](/images/testcarprediction_files/testcarprediction_195_1.png)
 
 
 
@@ -25841,7 +25841,7 @@ sns.lmplot(x='MSRP', y='y_pred', data=df)
 
 
 
-![png](testcarprediction_files/testcarprediction_202_1.png)
+![png](/images/testcarprediction_files/testcarprediction_202_1.png)
 
 
 # Future interests
