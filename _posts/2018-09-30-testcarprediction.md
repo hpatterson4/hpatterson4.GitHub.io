@@ -274,7 +274,7 @@ sns.heatmap(df.corr(), annot = True)
 
 
 
-![png](testcarprediction_files/testcarprediction_9_1.png)
+![png](/images/testcarprediction_files/testcarprediction_9_1.png)
 
 
 
@@ -306,7 +306,7 @@ sns.heatmap(correlations * 100, annot=True, fmt='.0f', mask=mask)
 
 
 
-![png](testcarprediction_files/testcarprediction_12_1.png)
+![png](/images/testcarprediction_files/testcarprediction_12_1.png)
 
 
 
