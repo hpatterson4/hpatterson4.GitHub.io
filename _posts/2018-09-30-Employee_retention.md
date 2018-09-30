@@ -1,4 +1,5 @@
 <br>
+<br>
 
 # EMPLOYEE_RETENTION
 LEFT OR EMPLOYEED
@@ -438,7 +439,7 @@ nullvalues.plot.barh()
 
 
 
-![png](Employee_retention_files/Employee_retention_10_1.png)
+![png](/images/Employee_retention_files/Employee_retention_10_1.png)
 
 
 
@@ -449,7 +450,7 @@ plt.show()
 ```
 
 
-![png](Employee_retention_files/Employee_retention_11_0.png)
+![png](/images/Employee_retention_files/Employee_retention_11_0.png)
 
 
 
@@ -461,15 +462,15 @@ for feature in df.dtypes[df.dtypes == 'object'].index:
 ```
 
 
-![png](Employee_retention_files/Employee_retention_12_0.png)
+![png](/images/Employee_retention_files/Employee_retention_12_0.png)
 
 
 
-![png](Employee_retention_files/Employee_retention_12_1.png)
+![png](/images/Employee_retention_files/Employee_retention_12_1.png)
 
 
 
-![png](Employee_retention_files/Employee_retention_12_2.png)
+![png](/images/Employee_retention_files/Employee_retention_12_2.png)
 
 
 
@@ -479,7 +480,7 @@ df.hist('last_evaluation',bins=50);
 ```
 
 
-![png](Employee_retention_files/Employee_retention_13_0.png)
+![png](/images/Employee_retention_files/Employee_retention_13_0.png)
 
 
 
@@ -497,7 +498,7 @@ df.plot(x='last_evaluation', y='avg_monthly_hrs',
 
 
 
-![png](Employee_retention_files/Employee_retention_14_1.png)
+![png](/images/Employee_retention_files/Employee_retention_14_1.png)
 
 
 
@@ -507,7 +508,7 @@ sns.jointplot(x='tenure',y='satisfaction',data=df,color='red',kind='kde');
 ```
 
 
-![png](Employee_retention_files/Employee_retention_15_0.png)
+![png](/images/Employee_retention_files/Employee_retention_15_0.png)
 
 
 
@@ -524,7 +525,7 @@ sns.countplot(y='n_projects', data = df)
 
 
 
-![png](Employee_retention_files/Employee_retention_16_1.png)
+![png](/images/Employee_retention_files/Employee_retention_16_1.png)
 
 
 # CORRELATIONS 
@@ -548,7 +549,7 @@ sns.heatmap(correlations)
 
 
 
-![png](Employee_retention_files/Employee_retention_19_1.png)
+![png](/images/Employee_retention_files/Employee_retention_19_1.png)
 
 
 
@@ -569,7 +570,7 @@ sns.heatmap(correlations * 100, annot= True, mask=mask,
 
 
 
-![png](Employee_retention_files/Employee_retention_20_1.png)
+![png](/images/Employee_retention_files/Employee_retention_20_1.png)
 
 
 # Segmentation
@@ -589,7 +590,7 @@ sns.violinplot(y = 'status', x = 'satisfaction', data = df)
 
 
 
-![png](Employee_retention_files/Employee_retention_22_1.png)
+![png](/images/Employee_retention_files/Employee_retention_22_1.png)
 
 
 
@@ -606,7 +607,7 @@ sns.violinplot(y = 'status', x = 'last_evaluation', data = df)
 
 
 
-![png](Employee_retention_files/Employee_retention_23_1.png)
+![png](/images/Employee_retention_files/Employee_retention_23_1.png)
 
 
 
@@ -698,7 +699,7 @@ sns.lmplot(x='satisfaction', y='last_evaluation', hue='status',
 
 
 
-![png](Employee_retention_files/Employee_retention_25_1.png)
+![png](/images/Employee_retention_files/Employee_retention_25_1.png)
 
 
 
@@ -716,7 +717,7 @@ sns.lmplot(x='satisfaction', y='last_evaluation',
 
 
 
-![png](Employee_retention_files/Employee_retention_26_1.png)
+![png](/images/Employee_retention_files/Employee_retention_26_1.png)
 
 
 # DATA CLEANING
@@ -858,7 +859,7 @@ sns.countplot(y = 'department', data = df)
 
 
 
-![png](Employee_retention_files/Employee_retention_38_1.png)
+![png](/images/Employee_retention_files/Employee_retention_38_1.png)
 
 
 
@@ -1061,7 +1062,7 @@ sns.lmplot(x='satisfaction', y='last_evaluation',
 
 
 
-![png](Employee_retention_files/Employee_retention_46_1.png)
+![png](/images/Employee_retention_files/Employee_retention_46_1.png)
 
 
 
@@ -2180,7 +2181,7 @@ plt.show()
 ```
 
 
-![png](Employee_retention_files/Employee_retention_95_0.png)
+![png](/images/Employee_retention_files/Employee_retention_95_0.png)
 
 
 
@@ -2264,7 +2265,7 @@ sns.heatmap(cm, annot=True)
 
 
 
-![png](Employee_retention_files/Employee_retention_101_1.png)
+![png](/images/Employee_retention_files/Employee_retention_101_1.png)
 
 
 
@@ -2449,5 +2450,5 @@ sns.heatmap(cm, annot=True)
 
 
 
-![png](Employee_retention_files/Employee_retention_116_1.png)
+![png](/images/Employee_retention_files/Employee_retention_116_1.png)
 
